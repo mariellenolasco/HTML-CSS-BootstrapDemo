@@ -222,6 +222,9 @@
                     <li>
                         uses tag name to identify the element
                     </li>
+                    <li>
+                        this will affect all elements with that tag name
+                    </li>
                 </ul>
             </li>
             <li>
@@ -249,14 +252,16 @@
                         specific keyword at the end of the selector used 
                         to style elements when it is at a certain state
                     </li>
+                    <li>
+                        :active, :hover, etc..
+                    </li>
                 </ul>
             </li>
             <li>
                 Pseudo-element
-                <ul class="pel">
+                <ul id="pel">
                     <li>
                         used to style specific parts of an element
-                        
                     </li>
                     <li> insert content before or after and element </li>
                     <li> style first letter or line of an element</li>
@@ -277,13 +282,19 @@
             <li>
                 Multiple selectors
              <ul>
-                 <li>use comma</li>
+                 <li>use comma to separate the selectors</li>
+                 <li>example: li, div, p { style rule here; }</li>
              </ul>
             </li>
             <li>
-                Wild Card
+                Wild Card (*)
                 <ul>
                     <li>Style all</li>
+                    <li>
+                        * {
+                            style rule here;
+                        }
+                    </li>
                 </ul>
             </li>
         </ul>
